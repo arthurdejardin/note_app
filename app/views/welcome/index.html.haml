@@ -1,3 +1,31 @@
-%h1 Welcome placeholder
+#banner
+	.banner_content
+		%h1 NoteApp
+		%p The online notebook
+		%button= link_to "Sign up", new_user_registration_path
 
+#testimonial
+	.wrapper
+		%p.quote "Notebook app, following Mackenzie Child 12 in 12 challenge"
+		%p.name - Some name here
 
+#callouts
+	.callout_inner
+		.wrapper
+			.callout
+				%h2 Feature 1
+				%p Wayfarers Vice photo booth sartorial, gentrify keffiyeh bitters kitsch Williamsburg vinyl PBR.
+			.callout
+				%h2 Feature 2
+				%p Wayfarers Vice photo booth sartorial, gentrify keffiyeh bitters kitsch Williamsburg vinyl PBR.
+			.callout
+				%h2 Feature 3
+				%p Wayfarers Vice photo booth sartorial, gentrify keffiyeh bitters kitsch Williamsburg vinyl PBR.
+#bottom_cta
+	.wrapper
+		%h2 The big CTA
+		%p Sign up now!
+		%button= link_to "Sgn up!", new_user_registration_path
+
+%footer
+	%p &copy; Copyright here
